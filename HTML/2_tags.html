@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="topo">
         escopo do header
     </header>
 
@@ -31,8 +31,8 @@
             copiamos a linha para baixo -->
         </article>
 
-        <article>
-            <!-- listas ordenadas e listas nao ordenadas -->
+        <!-- listas ordenadas e listas nao ordenadas -->
+        <article>           
             <ol>
                 <!-- listas ordenadas tem a numeração automática -->
                 <li>primeiro item</li>
@@ -59,9 +59,27 @@
 
         </article>
 
-        <article>
-            escopo do article
+        <!-- links -->
+
+        <article> <!-- <a> vem de anchor, sentido de ancorar algo ao site -->
+            <!-- o href é o atributo que define o destino do link 
+             veremos o primeiro exemplo sendo o link relativo -->
+            <a href="0_intro.html">Link Relativo para a Introdução</a>
+            <br>
+            
+            <!-- link Absoluto com target="_blank" o que faz com que o link seja aberto em uma nova aba -->
+            <a href="https://www.google.com" target="_blank">Link Absoluto para o Google</a>
+            <br>
+
+            <!-- link Âncora, serve para navegar para uma seção específica da página -->
+            <a href="#topo">Link Âncora para o topo</a>
+            <br>
+
+            <!-- link para email, ele abre o programa de email padrão do nosso computador, com o campo de destinatário já preenchido com o email especificado no href-->
+            <a href="mailto:josiephelipel265@gmail.com">Link para email</a>
+
         </article>
+
     </main>
 
     <footer>
