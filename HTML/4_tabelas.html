@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table, th, td{
+            border: 1px solid; /* a propriedade border é utilizada para definir a borda da tabela, das células de cabeçalho e das células de dados */      
+        }
+
+    </style>
+</head>
+<body>  
+    <main>
+        <section>
+            <table> <!-- a tag <table> é utilizada para criar uma tabela em HTML -->
+                <thead> <!-- a tag <thead> é utilizada para agrupar o conteúdo do cabeçalho da tabela, que geralmente contém os títulos das colunas -->
+                    <tr> <!-- a tag <tr> é utilizada para definir uma linha na tabela -->
+                        <th>ID</th>  <!-- a tag <th> é utilizada para definir uma célula de cabeçalho, que geralmente é exibida em negrito e centralizada por padrão -->
+                        <th>Nome</th>
+                        <th>Curso</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td> <!-- a tag <td> é utilizada para definir uma célula de dados, que contém o conteúdo da tabela -->
+                        <td>João</td>
+                        <td>Front-end</td>
+                        <td>Aprovado</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria</td>
+                        <td>Back-end</td>
+                        <td>Reprovado</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Pedro</td>
+                        <td>Full-stack</td>
+                        <td>Aprovado</td>
+                    </tr>
+                    <tfoot> <!-- a tag <tfoot> é utilizada para agrupar o conteúdo do rodapé da tabela, que geralmente contém informações adicionais ou resumos relacionados aos dados da tabela -->
+                        <tr>
+                            <td colspan="2">Curso Iniciante</td> <!-- o atributo colspan é utilizado para mesclar células horizontalmente, permitindo que uma célula ocupe o espaço de várias colunas -->
+                            <td colspan="2">Game office</td>
+                        </tr>
+                    </tfoot>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
