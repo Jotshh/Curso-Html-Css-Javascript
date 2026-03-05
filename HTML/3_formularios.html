@@ -17,18 +17,25 @@
 
             <form name="cadastro" method="post" action="cadastro.php">
 
-                <fieldset>  <!-- Agrupamento de campos -->
+                <fieldset> <!-- Agrupamento de campos -->
                     <!-- dentro da tag <form> ficarão os campos e botões do formulário  -->
 
-                    <legend>Dados Pessoais</legend> <!-- O elemento <legend> é utilizado para fornecer um título ou descrição para o grupo de campos dentro do <fieldset>, melhorando a organização e a acessibilidade do formulário -->
+                    <legend>Dados Pessoais</legend>
+                    <!-- O elemento <legend> é utilizado para fornecer um título ou descrição para o grupo de campos dentro do <fieldset>, melhorando a organização e a acessibilidade do formulário -->
 
-                    <label for="name">Nome Completo: </label>
-                    <!-- o atributo for é utilizado para associar o rótulo ao campo de entrada correspondente, melhorando a acessibilidade do formulário -->
+                    <div id="nome">
 
-                    <input type="text" id="name" placeholder="Seu nome:" required>
+                        <label for="name">Nome: </label>
+                        <!-- o atributo for é utilizado para associar o rótulo ao campo de entrada correspondente, melhorando a acessibilidade do formulário -->
 
-                    <label for="email">Email: </label>
-                    <input type="email" id="email" placeholder="Seu email:" required>
+                        <input type="text" id="name" placeholder="Digite seu nome completo:" required>
+                    </div>
+
+                    <div id="email">
+                        <label for="campo-email">Email: </label>
+
+                        <input type="email" id="campo-email" placeholder="Seu email:" required>
+                    </div>
 
                 </fieldset>
 
