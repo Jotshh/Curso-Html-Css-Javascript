@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários em HTML</title>
+</head>
+<body>
+    <main>
+        <section>
+            <!-- o atributo name é utilizado para dar um nome ao formulário, e pode ser usado para identificar o formulário em scripts; 
+             o atributo method define o método de envio dos dados do formulário para o servidor; 
+             e o metodo post significa que os dados serão enviados no corpo da requisição; 
+             action define o destino dos dados do formulário -->
+             
+            <form name="cadastro" method="post" action="cadastro.php">
+                <!-- dentro da tag <form> ficarão os campos e botões do formulário  -->
+
+                    <input type="text" placeholder="Seu nome: " required>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
