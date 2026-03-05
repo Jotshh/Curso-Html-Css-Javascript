@@ -37,6 +37,14 @@
                         <input type="email" id="campo-email" placeholder="Seu email:" required>
                     </div>
 
+                    <!-- o tipo tel é utilizado para criar campos de entrada para números de telefone -->
+                     <!-- o atributo pattern é utilizado para definir uma expressão regular que o valor do campo deve corresponder, garantindo que o número de telefone seja inserido no formato correto -->
+                      
+                    <div id="whatsapp">
+                        <label>Whatsapp:</label>
+                        <input type="tel" placeholder="(99)99999-9999" required pattern="[0-9]{2}[0-9]{5}-[0-9]{4}">
+                    </div>
+
                     <!-- o tipo radio é utilizado para criar botões de opção, onde apenas uma opção pode ser selecionada -->
 
                     <div id="genero">
@@ -59,6 +67,8 @@
                         <label for="cp-cidade">Cidade:</label>
                         <input type="text" placeholder="Cidade:" required>
                     </div>
+
+                    <!-- o elemento select é utilizado para criar uma lista suspensa, onde o usuário pode selecionar uma opção entre várias disponíveis -->
 
                     <div id="cidade">
                         <label>Estado:</label>
