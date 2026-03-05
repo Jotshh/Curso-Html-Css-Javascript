@@ -14,9 +14,14 @@
              action define o destino dos dados do formulário -->
              
             <form name="cadastro" method="post" action="cadastro.php">
+
                 <!-- dentro da tag <form> ficarão os campos e botões do formulário  -->
 
-                    <input type="text" placeholder="Seu nome: " required>
+                    <label for="name">Nome Completo: </label> <!-- o atributo for é utilizado para associar o rótulo ao campo de entrada correspondente, melhorando a acessibilidade do formulário -->
+
+                    <input type="text" id="name" placeholder="Seu nome:" required>
+
+                    <input type="submit" value="Cadastrar">
 
             </form>
         </section>
