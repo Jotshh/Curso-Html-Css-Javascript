@@ -23,7 +23,7 @@
 
             <form name="cadastro" method="post" action="cadastro.php">
 
-                <fieldset> <!-- Agrupamento de campos -->
+                <fieldset id="dados-pessoais"> <!-- Agrupamento de campos -->
                     <!-- dentro da tag <form> ficarão os campos e botões do formulário  -->
 
                     <legend>Dados Pessoais</legend>
@@ -92,6 +92,32 @@
                     <div id="observacoes">
                         <label>Observações:</label>
                         <textarea rows="4" placeholder="Digite suas observações aqui..."></textarea>
+                    </div>
+
+                </fieldset>
+
+                <fieldset id="dados-pessoa-juridica">
+                    <legend>Dados da Pessoa Jurídica</legend>
+
+                    <div id="razao-social">
+                        <label for="razaosocial">Razão Social:</label>
+                        <input type="text" id="razaosocial" placeholder="Razão Social:" required>
+                    </div>
+
+                    <div id="nome-fantasia">
+                        <label for="nomefantasia">Nome de Fantasia:</label>
+                        <input type="text" id="nomefantasia" placeholder="Nome de Fantasia:" required>
+                    </div>
+
+                    <div id="cnpj">
+                        <label for="campo-cnpj">CNPJ:</label>
+                        <input type="text" id="campo-cnpj" placeholder="CNPJ:" required>
+                    </div>
+
+                    <div id="ie">
+                        <label for="campo-ie">Inscrição Estadual:</label>
+                        <input type="text" id="campo-ie" placeholder="Inscrição Estadual:" required>
+                        <input type="checkbox" value="isento-ie"><span>Isento de IE</span>
                     </div>
 
                 </fieldset>
