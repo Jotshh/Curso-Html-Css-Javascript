@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários em HTML</title>
 </head>
+
 <body>
     <main>
         <section>
@@ -12,19 +14,26 @@
              o atributo method define o método de envio dos dados do formulário para o servidor; 
              e o metodo post significa que os dados serão enviados no corpo da requisição; 
              action define o destino dos dados do formulário -->
-             
+
             <form name="cadastro" method="post" action="cadastro.php">
 
-                <!-- dentro da tag <form> ficarão os campos e botões do formulário  -->
+                <fieldset>  <!-- Agrupamento de campos -->
+                    <!-- dentro da tag <form> ficarão os campos e botões do formulário  -->
 
-                    <label for="name">Nome Completo: </label> <!-- o atributo for é utilizado para associar o rótulo ao campo de entrada correspondente, melhorando a acessibilidade do formulário -->
+                    <legend>Dados Pessoais</legend> <!-- O elemento <legend> é utilizado para fornecer um título ou descrição para o grupo de campos dentro do <fieldset>, melhorando a organização e a acessibilidade do formulário -->
+
+                    <label for="name">Nome Completo: </label>
+                    <!-- o atributo for é utilizado para associar o rótulo ao campo de entrada correspondente, melhorando a acessibilidade do formulário -->
 
                     <input type="text" id="name" placeholder="Seu nome:" required>
 
-                    <input type="submit" value="Cadastrar">
+                </fieldset>
+
+                <input type="submit" value="Cadastrar">
 
             </form>
         </section>
     </main>
 </body>
+
 </html>
