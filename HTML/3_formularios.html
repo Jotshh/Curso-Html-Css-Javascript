@@ -38,8 +38,8 @@
                     </div>
 
                     <!-- o tipo tel é utilizado para criar campos de entrada para números de telefone -->
-                     <!-- o atributo pattern é utilizado para definir uma expressão regular que o valor do campo deve corresponder, garantindo que o número de telefone seja inserido no formato correto -->
-                      
+                    <!-- o atributo pattern é utilizado para definir uma expressão regular que o valor do campo deve corresponder, garantindo que o número de telefone seja inserido no formato correto -->
+
                     <div id="whatsapp">
                         <label>Whatsapp:</label>
                         <input type="tel" placeholder="(99)99999-9999" required pattern="[0-9]{2}[0-9]{5}-[0-9]{4}">
@@ -58,7 +58,7 @@
 
                     <div id="interesse">
                         <label for="campo-interesse">Área de Interesse: </label>
-                        <input type="checkbox" name="interesse" value="TI"> <span>Tecnologia da Informação</span> 
+                        <input type="checkbox" name="interesse" value="TI"> <span>Tecnologia da Informação</span>
                         <input type="checkbox" name="interresse" value="comercial"> <span>Comercial</span>
                         <input type="checkbox" name="interresse" value="financeiro"> <span>Financeiro</span>
                     </div>
@@ -79,6 +79,13 @@
                             <option value="Acre">AC</option>
                             <option value="São Paulo">SP</option>
                         </select>
+                    </div>
+
+                    <!-- o elemento textarea é utilizado para criar uma área de texto multilinha, onde o usuário pode digitar um texto mais longo -->
+                    <!-- o atributo rows define o número de linhas visíveis na área de texto -->
+                    <div id="observacoes">
+                        <label>Observações:</label>
+                        <textarea rows="4" placeholder="Digite suas observações aqui..."></textarea>
                     </div>
 
                 </fieldset>
