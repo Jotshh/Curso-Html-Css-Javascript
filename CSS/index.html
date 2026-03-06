@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao CSS</title>
+    <style> /* a tag <style> é utilizada para definir estilos CSS diretamente no documento HTML, permitindo que você escreva regras de estilo para os elementos da página */
+        h1{
+            color: blue; /* a propriedade color é utilizada para definir a cor do texto, e neste caso, a cor é definida como blue para tornar o texto azul */
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red;">Titulo estilizado inline</h1> <!-- atributo style é utilizado para aplicar estilos diretamente ao elemento, e neste caso, a propriedade color é definida como red para tornar o texto vermelho -->
+    <!-- estilo inline, ou seja, os estilos são aplicados diretamente ao elemento -->
+
+    <h1>Titulo estilizado com CSS incorporado</h2>
+
+    <p>Se repararmos bem, a especificidade do estilo inline é maior que a do CSS incorporado,</p>
+    <p>ou seja, o estilo inline tem prioridade sobre o CSS incorporado, e por isso, o título "Titulo estilizado inline" será exibido em vermelho, enquanto o título "Titulo estilizado com CSS incorporado" será exibido em azul.</p>
+    
+</body>
+</html>
