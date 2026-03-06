@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introdução ao CSS</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css"> <!-- a tag <link> é utilizada para vincular um arquivo CSS externo ao documento HTML, permitindo que os estilos definidos no arquivo sejam aplicados aos elementos da página -->
+    <!-- o atributo rel é utilizado para especificar a relação entre o documento HTML e o recurso vinculado, e neste caso, é definido como "stylesheet" para indicar que o recurso é uma folha de estilo CSS -->
+     <!-- o atributo type é utilizado para especificar o tipo de conteúdo do recurso vinculado, e neste caso, é definido como "text/css" para indicar que o recurso é uma folha de estilo CSS - utilizado para padronização -->
+
     <style> /* a tag <style> é utilizada para definir estilos CSS diretamente no documento HTML, permitindo que você escreva regras de estilo para os elementos da página */
         h1{
             color: blue; /* a propriedade color é utilizada para definir a cor do texto, e neste caso, a cor é definida como blue para tornar o texto azul */
+        }
+        p{
+            color: blue;
         }
     </style>
 </head>
@@ -14,10 +21,17 @@
     <h1 style="color: red;">Titulo estilizado inline</h1> <!-- atributo style é utilizado para aplicar estilos diretamente ao elemento, e neste caso, a propriedade color é definida como red para tornar o texto vermelho -->
     <!-- estilo inline, ou seja, os estilos são aplicados diretamente ao elemento -->
 
-    <h1>Titulo estilizado com CSS incorporado</h2>
+    <h1>Titulo estilizado com CSS incorporado</h1>
 
-    <p>Se repararmos bem, a especificidade do estilo inline é maior que a do CSS incorporado,</p>
-    <p>ou seja, o estilo inline tem prioridade sobre o CSS incorporado, e por isso, o título "Titulo estilizado inline" será exibido em vermelho, enquanto o título "Titulo estilizado com CSS incorporado" será exibido em azul.</p>
-    
+    <h2>
+        CSS - Cascading Style Sheets (Folhas de Estilo em Cascata)
+    </h2>
+
+    <p style="color: red;">ESPECIFICIDADE INLINE - Se repararmos bem, a especificidade do estilo inline é maior que a do CSS incorporado</p>
+    <p>ESPECIFICIDADE INCORPORADO - ou seja, o estilo inline tem prioridade sobre o CSS incorporado, e por isso, o título "Titulo estilizado inline" será exibido em vermelho, enquanto o título "Titulo estilizado com CSS incorporado" será exibido em azul.</p>
+    <p>
+    ESPECIFICIDADE LINKADO - O CSS é uma linguagem de estilo utilizada para descrever a apresentação de um documento HTML, permitindo que os desenvolvedores controlem a aparência e o layout dos elementos em uma página web. Ele é fundamental para criar páginas web visualmente atraentes e responsivas, proporcionando uma melhor experiência ao usuário. 
+    </p>
+
 </body>
 </html>
