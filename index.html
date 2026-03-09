@@ -255,7 +255,7 @@
                     </li>
                     <li><code><a href="mailto:">Link para Email:</a></code> Abre o programa de email do usuário com o
                         campo de destinatário
-                        preenchido. Exemplo: <code>< a href="mailto:@seuemail.com ></code></li>
+                        preenchido. Exemplo: <code>< a href="mailto:seuuser@seuemail.com ></code></li>
                 </ul>
                 <p>
                     Os links podem ter atributos adicionais, como <code>target="_blank"</code> para abrir o link em uma
@@ -264,6 +264,111 @@
                 </p>
             </article>
             <p><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Leia mais</a></p>
+        </section>
+
+        <section>
+            <article>
+                <h2>Tags para formulários em HTML</h2>
+                <p>Para criarmos um formulário em HTML, utilizamos a tag <code>< form ></code>. Essa tag é usada para
+                    agrupar elementos de entrada, como campos de texto, botões e outros controles. O atributo
+                    <code>action</code> especifica onde os dados do formulário serão enviados quando o usuário submeter
+                    o formulário.
+                </p>
+                <p>A tag <code>< fieldset ></code> é usada para agrupar elementos relacionados dentro do formulário.<br>
+                    a tag <code>< legend ></code> é usada para adicionar um título ao grupo de elementos. <br>
+                    a tag <code>< div ></code> em formulários HTML funciona como um contêiner de bloco genérico,
+                    essencial para organizar, agrupar e estilizar campos (inputs, labels, botões) com CSS sem adicionar
+                    significado semântico.</p>
+
+                <p>Dentro do formulário, podemos usar várias tags para criar diferentes tipos de campos de entrada,
+                    como:</p>
+                <ul>
+                    <li><code>< input type="text" ></code>: Campo de texto para entrada de dados.</li>
+                    <li><code>< input type="password" ></code>: Campo de senha para entrada de senhas.</li>
+                    <li><code>< input type="email" ></code>: Campo para entrada de endereços de email.</li>
+                    <li><code>< input type="submit" ></code>: Botão para enviar o formulário.</li>
+                    <li><code>< textarea ></code>: Área de texto para entrada de texto multilinha.</li>
+                    <li><code>< select ></code>: Menu suspenso para seleção de opções.</li>
+                </ul>
+            </article>
+            <article>
+                <p>Um exemplo de formulário bem completo com as tags mencionadas acima é demonstrado abaixo:</p>
+
+                <form name="cadastro" method="post" action="cadastro.php">
+
+                    <fieldset id="dados-pessoais">
+
+                        <legend>Dados Pessoais</legend>
+
+                        <div id="nome">
+
+                            <label for="name">Nome: </label>
+
+                            <input type="text" id="name" placeholder="Digite seu nome completo:" required>
+                        </div>
+
+                        <div id="email">
+                            <label for="campo-email">Email: </label>
+
+                            <input type="email" id="campo-email" placeholder="Seu email:" required>
+                        </div>
+
+                        <div id="whatsapp">
+                            <label>Whatsapp:</label>
+                            <input type="tel" placeholder="(99)99999-9999" required pattern="[0-9]{2}[0-9]{5}-[0-9]{4}">
+                        </div>
+
+                        <div id="genero">
+                            <label for="campo-genero">Gênero: </label>
+                            <input type="radio" value="masculino" name="genero"> <span>Masculino</span>
+                            <input type="radio" value="feminino" name="genero"> <span>Feminino</span>
+                            <input type="radio" value="outro" name="genero"> <span>Outro</span>
+                        </div>
+
+                        <div id="interesse">
+                            <label for="campo-interesse">Área de Interesse: </label>
+                            <input type="checkbox" name="interesse" value="TI"> <span>Tecnologia da Informação</span>
+                            <input type="checkbox" name="interresse" value="comercial"> <span>Comercial</span>
+                            <input type="checkbox" name="interresse" value="financeiro"> <span>Financeiro</span>
+                        </div>
+
+                        <div id="cidade">
+                            <label for="cp-cidade">Cidade:</label>
+                            <input type="text" placeholder="Cidade:" required>
+                        </div>
+
+                        <div id="cidade">
+                            <label>Estado:</label>
+                            <select name="uf">
+                                <option value="Santa Catarina">SC</option>
+                                <option value="Mato Grosso do Sul">MS</option>
+                                <option value="Pará">PA</option>
+                                <option value="Acre">AC</option>
+                                <option value="São Paulo">SP</option>
+                            </select>
+                        </div>
+
+                        <div id="observacoes">
+                            <label>Observações:</label>
+                            <textarea rows="4" placeholder="Digite suas observações aqui..."></textarea>
+                        </div>
+
+                    </fieldset>
+                    <input type="submit" value="Cadastrar">
+
+                </form>
+                <p>Nos campos adicionados no exemplo, foram utilizadas as tags &lt;input&gt; com diferentes valores para
+                    o atributo type, além das tags &lt;select&gt; e &lt;textarea&gt;.<br>
+                    Também foram utilizados atributos como: </p>
+                <ul>
+                    <li><strong>placeholder:</strong> Define o texto que será exibido como dica no campo.</li>
+                    <li><strong>required:</strong> Indica que o campo é obrigatório.</li>
+                    <li><strong>pattern:</strong> Define um padrão para validação do valor digitado.</li>
+
+                </ul>
+
+            </article>
+            <p><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Leia mais</a></p>
         </section>
 
     </main>
