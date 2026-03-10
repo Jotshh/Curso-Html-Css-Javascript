@@ -1,1 +1,4 @@
- 
+/*estilizando a tabela*/
+table, th, td{
+    border: 1px solid; /* a propriedade border é utilizada para definir a borda da tabela, das células de cabeçalho e das células de dados */      
+}
