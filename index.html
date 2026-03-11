@@ -15,7 +15,7 @@
         <h1>jotss</h1>
         <nav>
             <ul>
-                <li><a href="#">Início</a></li>
+                <li id="#"><a href="#">Início</a></li>
                 <li><a href="">Sobre</a></li>
                 <li><a href="">Contato</a></li>
             </ul>
@@ -28,11 +28,18 @@
                 <h2>Introdução ao Html</h2>
                 <p>
                     O HTML (Linguagem de Marcação de Hipertexto) é a linguagem de marcação padrão para criar páginas da
-                    web. Ele é usado para estruturar o conteúdo da página, como texto, imagens, links e outroselementos.
-                    O HTML é composto por uma série de tags que definem a estrutura e a formatação do conteúdo,
-                    permitindo que os navegadores interpretem e exibam as páginas da web de forma adequada.
+                    web. Ele é usado para estruturar o conteúdo da página, como texto, imagens, links e
+                    outroselementos.O HTML é composto por uma série de tags que definem a estrutura e a formatação do
+                    conteúdo, permitindo que os navegadores interpretem e exibam as páginas da web de forma adequada.
                 </p>
-                <p><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">Leia mais em:</a></p>
+                <p>HTML significa Hyper Text Markup Language, consiste na linguagem de marcação padrão para criar
+                    páginas da Web. O HTML descreve a estrutura de uma página da Web, consististindo em uma série de
+                    elementos.
+                </p>
+                <p>Os elementos HTML informam ao navegador como exibir o conteúdo, esses elemnetos rotulam partes do
+                    conteúdo como "este é um título", "este é um parágrafo", "este é um link", etc.
+                </p>
+                <p><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">Leia mais</a></p>
             </article>
         </section>
 
@@ -52,39 +59,366 @@
                     <li><code>< body ></code>: Contém o conteúdo visível da página, como texto, imagens e outros
                         elementos.
                     </li>
+                    <li><code>< h1 > até < h6 ></code>: Usadas para criar títulos e subtítulos.</li>
                     <li><code>< p ></code>: Usada para criar parágrafos de texto.</li>
+                    <li><code>< br ></code>: Usada para criar quebras de linha.</li>
                 </ul>
                 </p>
-                <p><a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Leia mais em:</a></p>
+                <p><a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Leia mais</a></p>
             </article>
         </section>
 
-        <h2>Tags na estrutura Semântica de um Documento HTML</h2>
-        <p>
-            A estrutura de um documento HTML seguem com as seguintes tags:
-        <ul>
-            <li><code>< header >: </code>a tag header especifica um cabeçalho para um documento ou seção. </li>
-            <li><code>< main >: </code>a tag main especifica o conteúdo principal do documento. </li>
-            <li><code>< section >: </code>a tag section especifica uma seção no documento. </li>
-            <li><code>< article >: </code>a tag article especifica um artigo independente no documento. </li>
-            <li><code>< footer >: </code>a tag footer especifica um rodapé para um documento ou seção. </li>
-            <li><code>< aside >: </code>a tag aside especifica um conteúdo secundário no documento. </li>
-        </ul>
-        </p>
-        <p>
-            Essas tags ajudam a organizar o conteúdo de forma semântica, facilitando a leitura e a compreensão do
-            documento tanto para os usuários quanto para os mecanismos de busca.
-        </p>
-        <p>
-            Na imagem abaixo, temos um exemplo de como essas tags podem ser organizadas em um documento HTML:
-        </p>
-        <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Plan_html_5.png" alt="Descrição da imagem">
-            <div>Imagem disponivel em: <a href="https://commons.wikimedia.org/wiki/File:Plan_html_5.png" target="_blank">https://commons.wikimedia.org/wiki/File:Plan_html_5.png</a>
-            </div>
-        </div>
-        <p><a href="https://www.w3schools.com/html/html_layout.asp" target="_blank">Leia mais em:</a></p>
+        <section>
+            <article>
+                <h2>Headings no HTML</h2>
+                <p>
+                    Os headings (cabeçalhos) no HTML são usados para definir a hierarquia de títulos e subtítulos em uma
+                    página. Eles vão de <code>< h1 ></code> a <code>< h6 ></code>, sendo <code>< h1 ></code> o título
+                    principal e <code>< h6 ></code> o subtítulo menos importante.
+                </p>
+                <h1>Exemplo de Heading H1</h1>
+                <h2>Exemplo de Heading H2</h2>
+                <h3>Exemplo de Heading H3</h3>
+                <h4>Exemplo de Heading H4</h4>
+                <h5>Exemplo de Heading H5</h5>
+                <h6>Exemplo de Heading H6</h6>
+                <p>As tags de headings são muito importantes para os mecanismos de pesquisa pois estes usam os títulos
+                    para indexar a estrutura e o conteúdo de suas páginas da web. Os usuários geralmente visitam uma
+                    página pelos seus títulos. É importante usar títulos para mostrar a estrutura do documento.</p>
+                <p><a href="https://www.w3schools.com/html/html_headings.asp" target="_blank">Leia mais</a></p>
+            </article>
+        </section>
 
+        <section>
+            <article>
+                <h2>Tags na estrutura Semântica de um Documento HTML</h2>
+                <p>
+                    A estrutura de um documento HTML seguem com as seguintes tags:
+                <ul>
+                    <li><code>< header >: </code>a tag header especifica um cabeçalho para um documento ou seção. </li>
+                    <li><code>< main >: </code>a tag main especifica o conteúdo principal do documento. </li>
+                    <li><code>< section >: </code>a tag section especifica uma seção no documento. </li>
+                    <li><code>< article >: </code>a tag article especifica um artigo independente no documento. </li>
+                    <li><code>< footer >: </code>a tag footer especifica um rodapé para um documento ou seção. </li>
+                    <li><code>< aside >: </code>a tag aside especifica um conteúdo secundário no documento. </li>
+                </ul>
+                </p>
+                <p>
+                    Essas tags ajudam a organizar o conteúdo de forma semântica, facilitando a leitura e a compreensão
+                    do
+                    documento tanto para os usuários quanto para os mecanismos de busca.
+                </p>
+                <p>
+                    Na imagem abaixo, temos um exemplo de como essas tags podem ser organizadas em um documento HTML:
+                </p>
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Plan_html_5.png"
+                        alt="Descrição da imagem">
+                    <div>Imagem disponivel em: <a href="https://commons.wikimedia.org/wiki/File:Plan_html_5.png"
+                            target="_blank">https://commons.wikimedia.org/wiki/File:Plan_html_5.png</a>
+                    </div>
+                </div>
+                <p><a href="https://www.w3schools.com/html/html_layout.asp" target="_blank">Leia mais</a></p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2>Tag para imagens no HTML</h2>
+                <p>
+                    A tag para inserir imagens em HTML é a <code>< img ></code>. Ela é usada para incorporar imagens em
+                    uma página da web. A tag <code>< img ></code> é um elemento vazio, o que significa que não tem uma
+                    tag de fechamento. Ela possui atributos importantes, como <code>src</code> (source) para especificar
+                    o caminho da imagem e <code>alt</code> (alternative text) para fornecer uma descrição alternativa da
+                    imagem, que é importante para acessibilidade.
+                </p>
+                <p>
+                    Nós podemos colocar no atributo <code>src</code> o caminho relativo ou absoluto da imagem. O caminho
+                    relativo é usado quando a imagem está localizada na mesma pasta ou em uma subpasta do arquivo HTML,
+                    enquanto o caminho absoluto é usado quando a imagem está hospedada em um servidor externo ou em um
+                    local diferente do arquivo HTML.
+                </p>
+                <p>
+                    Exemplo de caminho relativo:
+                    <code>< img src="imagens/exemplo.jpg" alt="Descrição da imagem" ></code>
+                </p>
+                <p>
+                    Exemplo de caminho absoluto:
+                    <code>< img src="https://www.exemplo.com/imagens/exemplo.jpg" alt="Descrição da imagem" ></code>
+                </p>
+                <p>Para exemplificar o uso de um caminho relativo, irei demonstrar utilizando o caminho:
+                    <code>< img src="HTML\assets\images\gatos-laranjas.jpg" alt="Gatos Laranjas" width="250" title="Gatos Laranjas" ></code>,
+                    este caminho esta presente na pasta do curso, e a imagem é a seguinte:
+                    <br>
+                    <img src="HTML\assets\images\gatos-laranjas.jpg" alt="Gatos Laranjas" width="250"
+                        title="Gatos Laranjas">
+                </p>
+                <p>Os atributos <code>width</code> e <code>height</code> podem ser usados para especificar o tamanho da
+                    imagem. Os atributos <code>alt</code> e <code>title</code> são importantes para acessibilidade e
+                    descrição da imagem, em que o atributo <code>alt</code> fornece uma descrição alternativa da imagem
+                    para usuários que não conseguem visualizá-la, e o atributo <code>title</code> exibe um tooltip
+                    quando o usuário passa o mouse sobre a imagem. </p>
+
+                <p><a href="https://blog.betrybe.com/html/image-html/" target="_blank">Leia mais</a></p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2>Tags para listas no HTML</h2>
+                <p>no HTML, existem três tipos de listas:</p>
+                <ul>
+                    <li><code>< ul ></code>: Lista não ordenada.</li>
+                    <li><code>< ol ></code>: Lista ordenada.</li>
+                    <li><code>< dl ></code>: Lista de definições.</li>
+                </ul>
+            </article>
+            <article>
+                Vamos exemplificar cada tipo de lista:
+                <h3>Lista Não Ordenada</h3>
+                <p>Uma lista não ordenada é usada para itens que não têm uma ordem específica. Ela é criada usando a tag
+                    <code>< ul ></code>, e cada item da lista é definido com a tag <code>< li ></code>.
+                </p>
+                <p>
+                    Exemplo de lista não ordenada: (Lista de compras)
+                    <code>
+                        <ul>
+                            <li>Arroz</li>
+                            <li>Feijão</li>
+                            <li>Macarrão</li>
+                        </ul>
+                    </code>
+                </p>
+            </article>
+
+            <article>
+                <h3>Lista Ordenada</h3>
+                <p>Uma listaordenada é usada para itens que têm uma ordem específica. Ela é criada usando a tag
+                    <code>< ol ></code>, e cada item da lista é definido com a tag <code>< li ></code>.
+                </p>
+                <p>
+                    Exemplo de lista ordenada: (Receita de bolo)
+                    <code>
+                        <ol>
+                            <li>Misture as gemas, a margarina e o açúcar até obter uma massa homogênea.</li>
+                            <li>Acrescente o leite e a farinha de trigo aos poucos, sem parar de bater.</li>
+                            <li>Despeje a massa em uma forma grande de furo central untada e enfarinhada.</li>
+                        </ol>
+                    </code>
+                </p>
+            </article>
+
+            <article>
+                <h3>Lista de Definições</h3>
+                <p>Uma lista de definições é usada para apresentar termos e suas respectivas definições. Ela é criada
+                    usando a tag <code>< dl ></code>, e cada termo é definido com a tag <code>< dt ></code>, enquanto a
+                    definição é dada com a tag <code>< dd ></code>.
+                </p>
+                <p>
+                    Exemplo de lista de definições: (Glossário)
+                    <code>
+                        <dl>
+                        <dt>HTML</dt>
+                        <dd>Linguagem de Marcação de Hipertexto.</dd>
+                        <dt>CSS</dt>
+                        <dd>Folhas de Estilo em Cascata.</dd>
+                        </dl>   
+                    </code>
+                </p>
+            </article>
+            <p><a href="https://www.codewithharry.com/tutorial/html-lists" target="_blank">Leia mais</a></p>
+        </section>
+
+        <section>
+            <article>
+                <h2>Tags para links no HTML</h2>
+                <p>
+                    A tag para criar links em HTML é a <code>< a ></code>. Ela é usada para criar hiperlinks que
+                    permitem
+                    aos usuários navegar entre páginas da web ou para diferentes seções dentro da mesma página. <br>
+                    A tag
+                    <code>< a ></code> possui o atributo <code>href</code>, que especifica o destino do link, e o texto
+                    entre as tags de abertura e fechamento é o texto clicável do link.
+                <p>Temos quatro tipos de links principais:</p>
+                <ul>
+                    <li><code><a href="HTML\2_tags.html" target="_blank" >Link Relativo:</a></code> Aponta para um
+                        recurso dentro do mesmo site ou diretório. Exemplo:
+                        <code>< a href="HTML\2_tags.html" ></code>
+                    </li>
+                    <li><code><a href="https://github.com/Jotshh/Curso-Html-Css-Javascript" target="_blank" >Link Absoluto:</a></code>
+                        Aponta para um recurso em outro site ou domínio. Exemplo:
+                        <code>< a href="https://github.com/Jotshh/Curso-Html-Css-Javascript" ></code>
+                    </li>
+                    <li><code><a href="#" >Link Âncora:</a></code> Aponta para uma seção específica dentro da mesma
+                        página. Exemplo:
+                        <code>< a href="#" ></code>
+                    </li>
+                    <li><code><a href="mailto:">Link para Email:</a></code> Abre o programa de email do usuário com o
+                        campo de destinatário
+                        preenchido. Exemplo: <code>< a href="mailto:seuuser@seuemail.com ></code></li>
+                </ul>
+                <p>
+                    Os links podem ter atributos adicionais, como <code>target="_blank"</code> para abrir o link em uma
+                    nova aba, ou <code>title</code> para fornecer informações adicionais sobre o link quando o usuário
+                    passa o mouse sobre ele.
+                </p>
+            </article>
+            <p><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Leia mais</a></p>
+        </section>
+
+        <section>
+            <article>
+                <h2>Tags para formulários em HTML</h2>
+                <p>Para criarmos um formulário em HTML, utilizamos a tag <code>< form ></code>. Essa tag é usada para
+                    agrupar elementos de entrada, como campos de texto, botões e outros controles. O atributo
+                    <code>action</code> especifica onde os dados do formulário serão enviados quando o usuário submeter
+                    o formulário.
+                </p>
+                <p>A tag <code>< fieldset ></code> é usada para agrupar elementos relacionados dentro do formulário.<br>
+                    a tag <code>< legend ></code> é usada para adicionar um título ao grupo de elementos. <br>
+                    a tag <code>< div ></code> em formulários HTML funciona como um contêiner de bloco genérico,
+                    essencial para organizar, agrupar e estilizar campos (inputs, labels, botões) com CSS sem adicionar
+                    significado semântico.</p>
+
+                <p>Dentro do formulário, podemos usar várias tags para criar diferentes tipos de campos de entrada,
+                    como:</p>
+                <ul>
+                    <li><code>< input type="text" ></code>: Campo de texto para entrada de dados.</li>
+                    <li><code>< input type="password" ></code>: Campo de senha para entrada de senhas.</li>
+                    <li><code>< input type="email" ></code>: Campo para entrada de endereços de email.</li>
+                    <li><code>< input type="submit" ></code>: Botão para enviar o formulário.</li>
+                    <li><code>< textarea ></code>: Área de texto para entrada de texto multilinha.</li>
+                    <li><code>< select ></code>: Menu suspenso para seleção de opções.</li>
+                </ul>
+            </article>
+            <article>
+                <p>Um exemplo de formulário bem completo com as tags mencionadas acima é demonstrado abaixo:</p>
+
+                <form name="cadastro" method="post" action="cadastro.php">
+
+                    <fieldset id="dados-pessoais">
+
+                        <legend>Dados Pessoais</legend>
+
+                        <div id="nome">
+
+                            <label for="name">Nome: </label>
+
+                            <input type="text" id="name" placeholder="Digite seu nome completo:" required>
+                        </div>
+
+                        <div id="email">
+                            <label for="campo-email">Email: </label>
+
+                            <input type="email" id="campo-email" placeholder="Seu email:" required>
+                        </div>
+
+                        <div id="whatsapp">
+                            <label>Whatsapp:</label>
+                            <input type="tel" placeholder="(99)99999-9999" required pattern="[0-9]{2}[0-9]{5}-[0-9]{4}">
+                        </div>
+
+                        <div id="genero">
+                            <label for="campo-genero">Gênero: </label>
+                            <input type="radio" value="masculino" name="genero"> <span>Masculino</span>
+                            <input type="radio" value="feminino" name="genero"> <span>Feminino</span>
+                            <input type="radio" value="outro" name="genero"> <span>Outro</span>
+                        </div>
+
+                        <div id="interesse">
+                            <label for="campo-interesse">Área de Interesse: </label>
+                            <input type="checkbox" name="interesse" value="TI"> <span>Tecnologia da Informação</span>
+                            <input type="checkbox" name="interresse" value="comercial"> <span>Comercial</span>
+                            <input type="checkbox" name="interresse" value="financeiro"> <span>Financeiro</span>
+                        </div>
+
+                        <div id="cidade">
+                            <label for="cp-cidade">Cidade:</label>
+                            <input type="text" placeholder="Cidade:" required>
+                        </div>
+
+                        <div id="cidade">
+                            <label>Estado:</label>
+                            <select name="uf">
+                                <option value="Santa Catarina">SC</option>
+                                <option value="Mato Grosso do Sul">MS</option>
+                                <option value="Pará">PA</option>
+                                <option value="Acre">AC</option>
+                                <option value="São Paulo">SP</option>
+                            </select>
+                        </div>
+
+                        <div id="observacoes">
+                            <label>Observações:</label>
+                            <textarea rows="4" placeholder="Digite suas observações aqui..."></textarea>
+                        </div>
+
+                    </fieldset>
+                    <input type="submit" value="Cadastrar">
+
+                </form>
+                <p>Nos campos adicionados no exemplo, foram utilizadas as tags &lt;input&gt; com diferentes valores para
+                    o atributo type, além das tags &lt;select&gt; e &lt;textarea&gt;.<br>
+                    Também foram utilizados atributos como: </p>
+                <ul>
+                    <li><strong>placeholder:</strong> Define o texto que será exibido como dica no campo.</li>
+                    <li><strong>required:</strong> Indica que o campo é obrigatório.</li>
+                    <li><strong>pattern:</strong> Define um padrão para validação do valor digitado.</li>
+
+                </ul>
+
+            </article>
+            <p><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Leia mais</a></p>
+        </section>
+
+        <section>
+            <article>
+                <h2>Tags para Tabelas em HTML</h2>
+                <p>A tag &lt;table&gt; é utilizada para criar tabelas em HTML. A tag &lt;thead&gt; é utilizada para definir o cabeçalho da tabela. <br>
+                A tag &lt;tbody&gt; é utilizada para definir o corpo da tabela. A tag &lt;th&gt; é utilizada para criar células de cabeçalho. As tags &lt;tr&gt; e &lt;td&gt; são utilizadas para criar linhas e células na tabela. <br>
+            A tag &lt;tfoot&gt; é utilizada para definir o rodapé da tabela.</p>
+            <p>Um exemplo de Utilização de uma tabela:</p>
+
+            <div>
+                <table> 
+                <thead> 
+                    <tr> 
+                        <th>ID</th> 
+                        <th>Nome</th>
+                        <th>Curso</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td> 
+                        <td>João</td>
+                        <td>Front-end</td>
+                        <td>Aprovado</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria</td>
+                        <td>Back-end</td>
+                        <td>Reprovado</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Pedro</td>
+                        <td>Full-stack</td>
+                        <td>Aprovado</td>
+                    </tr>
+                    <tfoot> 
+                        <tr>
+                            <td colspan="2">Curso Iniciante</td>                           <td colspan="2">Game office</td>
+                        </tr>
+                    </tfoot>
+                </tbody>
+            </table>
+            </div>
+            </article>
+            <p>Leia mais: <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">Tabelas em HTML</a></p>
+        </section>
 
     </main>
 
