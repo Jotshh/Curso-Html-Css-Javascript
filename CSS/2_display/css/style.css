@@ -1,0 +1,24 @@
+.hide{
+    display: none;
+}
+
+a{
+    background-color: #eee;
+    padding: 30px;
+    display: inline-block;
+}
+
+.content-flex{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    justify-content: flex-start;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-flex p{
+    padding: 30px;
+    width: 250px;
+}
