@@ -1,0 +1,66 @@
+/*RESET CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* formatação geral das tags */
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* formatação das classes gerais */
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+/* header */
+
+header{
+    background-color: #555;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* menu de navegacao */
+
+nav{
+    background-color: #eee;
+    padding: 15px 0;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    display: inline-block;
+    transition: all ease-in-out 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: #FFF;
+    color: #333;
+}
