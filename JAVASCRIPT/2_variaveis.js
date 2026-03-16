@@ -57,4 +57,4 @@ console.log(typeof idade)
 
 
 
-// node .\2_variaveis.js para rodar o programa
+// node .\nome-do-arquivo.js para rodar o programa
