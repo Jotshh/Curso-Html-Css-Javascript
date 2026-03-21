@@ -48,3 +48,17 @@ fetch('https://jsonplaceholder.typicode.com/posts/1', {
 })
   .then((response) => response.json())
   .then((json) => console.log(json));
+
+//  REQUISICAO DO TIPO PATCH
+
+fetch('https://jsonplaceholder.typicode.com/posts/1', {
+  method: 'PATCH',
+  body: JSON.stringify({
+    title: 'TROCANDO SOMENTE O TITULO',
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
