@@ -3,7 +3,7 @@
 
 // REQUISICAO DO TIPO GET
 
-// fetch("https://jsonplaceholder.typicode.com/posts")
+// fetch("https://jsonplaceholder.typicode.com/posts?userId=1")
 //     .then((response) => response.json())
 //     .then((posts)=> {
 //         console.log(posts);
@@ -62,3 +62,9 @@ fetch('https://jsonplaceholder.typicode.com/posts/1', {
 })
   .then((response) => response.json())
   .then((json) => console.log(json));
+
+//  REQUISICAO DO TIPO DELETE
+
+fetch('https://jsonplaceholder.typicode.com/posts/1', {
+  method: 'DELETE',
+});
