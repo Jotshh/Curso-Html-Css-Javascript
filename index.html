@@ -4,25 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introdução - HTML - CSS - JAVASCRIPT</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <!-- CSS/style.css é o caminho correto, porem nao vou mexer no css agora -->
+    <title>Introdução - HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./assets/favicon/android-chrome-512x512.png" type="image/x-icon">
+
 </head>
 
 <body>
 
-    <header>
-        <h1>jotss</h1>
-        <nav>
-            <ul>
-                <li id="#"><a href="#">Início</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="nav-bar">
+        <div class="display-flex">
+            <h1><a href="#"><img class="logo" src="./assets/logo-html.png" alt="logo-html"></a></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
+        <div id="app"></div>
+
         <section>
             <article>
                 <h2>Introdução ao Html</h2>
@@ -374,50 +379,55 @@
         <section>
             <article>
                 <h2>Tags para Tabelas em HTML</h2>
-                <p>A tag &lt;table&gt; é utilizada para criar tabelas em HTML. A tag &lt;thead&gt; é utilizada para definir o cabeçalho da tabela. <br>
-                A tag &lt;tbody&gt; é utilizada para definir o corpo da tabela. A tag &lt;th&gt; é utilizada para criar células de cabeçalho. As tags &lt;tr&gt; e &lt;td&gt; são utilizadas para criar linhas e células na tabela. <br>
-            A tag &lt;tfoot&gt; é utilizada para definir o rodapé da tabela.</p>
-            <p>Um exemplo de Utilização de uma tabela:</p>
+                <p>A tag &lt;table&gt; é utilizada para criar tabelas em HTML. A tag &lt;thead&gt; é utilizada para
+                    definir o cabeçalho da tabela. <br>
+                    A tag &lt;tbody&gt; é utilizada para definir o corpo da tabela. A tag &lt;th&gt; é utilizada para
+                    criar células de cabeçalho. As tags &lt;tr&gt; e &lt;td&gt; são utilizadas para criar linhas e
+                    células na tabela. <br>
+                    A tag &lt;tfoot&gt; é utilizada para definir o rodapé da tabela.</p>
+                <p>Um exemplo de Utilização de uma tabela:</p>
 
-            <div>
-                <table> 
-                <thead> 
-                    <tr> 
-                        <th>ID</th> 
-                        <th>Nome</th>
-                        <th>Curso</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td> 
-                        <td>João</td>
-                        <td>Front-end</td>
-                        <td>Aprovado</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Maria</td>
-                        <td>Back-end</td>
-                        <td>Reprovado</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Pedro</td>
-                        <td>Full-stack</td>
-                        <td>Aprovado</td>
-                    </tr>
-                    <tfoot> 
-                        <tr>
-                            <td colspan="2">Curso Iniciante</td>                           <td colspan="2">Game office</td>
-                        </tr>
-                    </tfoot>
-                </tbody>
-            </table>
-            </div>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome</th>
+                                <th>Curso</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>João</td>
+                                <td>Front-end</td>
+                                <td>Aprovado</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Maria</td>
+                                <td>Back-end</td>
+                                <td>Reprovado</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Pedro</td>
+                                <td>Full-stack</td>
+                                <td>Aprovado</td>
+                            </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Curso Iniciante</td>
+                                <td colspan="2">Game office</td>
+                            </tr>
+                        </tfoot>
+                        </tbody>
+                    </table>
+                </div>
             </article>
-            <p>Leia mais: <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">Tabelas em HTML</a></p>
+            <p>Leia mais: <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">Tabelas em HTML</a>
+            </p>
         </section>
 
     </main>
@@ -426,6 +436,7 @@
         <p>Copyright © 2026 - Jotss. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="/js/scripts.js"></script>
 </body>
 
 </html>
