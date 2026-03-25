@@ -175,3 +175,12 @@ main section article dl{
     margin: 5px 0;
 }
 
+/* estilizando a tag code */
+
+code{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    font-weight: bold;
+}
+
+/*  */
