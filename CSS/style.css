@@ -203,6 +203,12 @@ code{
     margin: 0;
 }
 
+.h3{
+    color: #ff6937; 
+    font-size: 1.17em;
+    margin: 0;
+}
+
 #h3{
     font-size: 1.17em;
 }
@@ -219,4 +225,14 @@ code{
     font-size: 0.67em;
 }
 
+/* estilizando imagens */
 
+.img-estrutura{
+    width: 25em;
+    height: 25em;
+    margin: 1em 0 1em;
+}
+
+.margin-tp-bt{
+    margin: 1em 0 1em;
+}
