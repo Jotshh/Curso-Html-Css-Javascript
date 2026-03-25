@@ -1,0 +1,119 @@
+/* reset css */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Formatação GERAL DAS TAGS */
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Classes Gerais */
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+/* header */
+
+header{
+    background-color: #555;
+    padding: 10px;
+}
+
+/* menu de navegacao */
+
+nav{
+    background-color: #eee;
+    padding: 15px 0;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    transition: all ease-in-out 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: #666;
+    color: #333;
+   
+}
+
+/* main */
+
+main{
+    padding: 10px 0;
+}
+
+main section{
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgb(199, 199, 199);
+}
+
+main section#tecnologia{
+    background-color: rgb(145, 145, 145);
+}
+
+main section article{
+    margin: 20px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+main section h2{
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+main section p{
+    margin: 20px 0;
+}
+
+main section a{
+    background-color: #666;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* rodapé */
+
+footer{
+    background-color: #666;
+    color: #eee;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p{
+    letter-spacing: 1px;
+}
