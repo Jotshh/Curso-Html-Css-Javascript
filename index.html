@@ -7,6 +7,10 @@
     <title>Introdução - HTML</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./assets/favicon/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -34,18 +38,20 @@
                 <p>
                     O HTML (Linguagem de Marcação de Hipertexto) é a linguagem de marcação padrão para criar páginas da
                     web. Ele é usado para estruturar o conteúdo da página, como texto, imagens, links e
-                    outroselementos.O HTML é composto por uma série de tags que definem a estrutura e a formatação do
+                    outros elementos. O HTML é composto por uma série de tags que definem a estrutura e a formatação do
                     conteúdo, permitindo que os navegadores interpretem e exibam as páginas da web de forma adequada.
                 </p>
                 <p>HTML significa Hyper Text Markup Language, consiste na linguagem de marcação padrão para criar
                     páginas da Web. O HTML descreve a estrutura de uma página da Web, consististindo em uma série de
                     elementos.
                 </p>
-                <p>Os elementos HTML informam ao navegador como exibir o conteúdo, esses elemnetos rotulam partes do
+                <p>Os elementos HTML informam ao navegador como exibir o conteúdo, esses elementos rotulam partes do
                     conteúdo como "este é um título", "este é um parágrafo", "este é um link", etc.
                 </p>
-                <p><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">Leia mais</a></p>
+                <a class="botao"  href="https://www.w3schools.com/html/html_intro.asp" target="_blank">Leia mais</a>
+
             </article>
+
         </section>
 
         <section>
@@ -69,8 +75,9 @@
                     <li><code>< br ></code>: Usada para criar quebras de linha.</li>
                 </ul>
                 </p>
-                <p><a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Leia mais</a></p>
+                <p><a class="botao" href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Leia mais</a></p>
             </article>
+
         </section>
 
         <section>
@@ -90,8 +97,9 @@
                 <p>As tags de headings são muito importantes para os mecanismos de pesquisa pois estes usam os títulos
                     para indexar a estrutura e o conteúdo de suas páginas da web. Os usuários geralmente visitam uma
                     página pelos seus títulos. É importante usar títulos para mostrar a estrutura do documento.</p>
-                <p><a href="https://www.w3schools.com/html/html_headings.asp" target="_blank">Leia mais</a></p>
+                <p><a class="botao" href="https://www.w3schools.com/html/html_headings.asp" target="_blank">Leia mais</a></p>
             </article>
+
         </section>
 
         <section>
@@ -123,8 +131,9 @@
                             target="_blank">https://commons.wikimedia.org/wiki/File:Plan_html_5.png</a>
                     </div>
                 </div>
-                <p><a href="https://www.w3schools.com/html/html_layout.asp" target="_blank">Leia mais</a></p>
+                <p><a class="botao" href="https://www.w3schools.com/html/html_layout.asp" target="_blank">Leia mais</a></p>
             </article>
+
         </section>
 
         <section>
@@ -164,22 +173,24 @@
                     para usuários que não conseguem visualizá-la, e o atributo <code>title</code> exibe um tooltip
                     quando o usuário passa o mouse sobre a imagem. </p>
 
-                <p><a href="https://blog.betrybe.com/html/image-html/" target="_blank">Leia mais</a></p>
+                <p><a class="botao" href="https://blog.betrybe.com/html/image-html/" target="_blank">Leia mais</a></p>
             </article>
+
         </section>
 
         <section>
             <article>
                 <h2>Tags para listas no HTML</h2>
-                <p>no HTML, existem três tipos de listas:</p>
+                <p>No HTML, existem três tipos de listas:</p>
                 <ul>
                     <li><code>< ul ></code>: Lista não ordenada.</li>
                     <li><code>< ol ></code>: Lista ordenada.</li>
                     <li><code>< dl ></code>: Lista de definições.</li>
                 </ul>
+                <p> Vamos exemplificar cada tipo de lista:</p>
             </article>
             <article>
-                Vamos exemplificar cada tipo de lista:
+
                 <h3>Lista Não Ordenada</h3>
                 <p>Uma lista não ordenada é usada para itens que não têm uma ordem específica. Ela é criada usando a tag
                     <code>< ul ></code>, e cada item da lista é definido com a tag <code>< li ></code>.
@@ -230,8 +241,9 @@
                         </dl>   
                     </code>
                 </p>
+                <p><a class="botao" href="https://www.codewithharry.com/tutorial/html-lists" target="_blank">Leia mais</a></p>
             </article>
-            <p><a href="https://www.codewithharry.com/tutorial/html-lists" target="_blank">Leia mais</a></p>
+
         </section>
 
         <section>
@@ -267,8 +279,9 @@
                     nova aba, ou <code>title</code> para fornecer informações adicionais sobre o link quando o usuário
                     passa o mouse sobre ele.
                 </p>
+                <p><a class="botao" href="https://www.w3schools.com/html/html_links.asp" target="_blank">Leia mais</a></p>
             </article>
-            <p><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Leia mais</a></p>
+
         </section>
 
         <section>
@@ -295,8 +308,7 @@
                     <li><code>< textarea ></code>: Área de texto para entrada de texto multilinha.</li>
                     <li><code>< select ></code>: Menu suspenso para seleção de opções.</li>
                 </ul>
-            </article>
-            <article>
+           
                 <p>Um exemplo de formulário bem completo com as tags mencionadas acima é demonstrado abaixo:</p>
 
                 <form name="cadastro" method="post" action="cadastro.php">
@@ -371,9 +383,9 @@
                     <li><strong>pattern:</strong> Define um padrão para validação do valor digitado.</li>
 
                 </ul>
-
+                <p><a class="botao" href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Leia mais</a></p>
             </article>
-            <p><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Leia mais</a></p>
+
         </section>
 
         <section>
@@ -425,8 +437,10 @@
                         </tbody>
                     </table>
                 </div>
+                <p><a class="botao" href="https://www.w3schools.com/html/html_tables.asp" target="_blank">Leia mais</a></p>
+                  
             </article>
-            <p>Leia mais: <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">Tabelas em HTML</a>
+
             </p>
         </section>
 
