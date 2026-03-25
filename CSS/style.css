@@ -44,7 +44,7 @@ header nav ul li{
     padding: 0 20px;
 }
 
-.nav-links a {
+.nav-links a{
   text-decoration: none;
   color: #000000;
   font-family: Arial, sans-serif;
@@ -161,6 +161,17 @@ main section article ul{
     padding-left: 20px;
 }
 
+main section article ol{
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+main section article dl{
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
 .listas li{
     margin: 5px 0;
 }
+
