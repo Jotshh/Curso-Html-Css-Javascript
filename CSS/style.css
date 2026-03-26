@@ -237,3 +237,11 @@ code{
 .margin-tp-bt{
     margin: 1em 0 1em;
 }
+
+/* estilizando o footer */
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
